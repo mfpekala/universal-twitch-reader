@@ -26,3 +26,15 @@ The output is a series of files that look like:
 ```
 
 where "A" is the name of a type of on-screen text as inputted by the user.
+
+## Documentation
+
+Documentation is split into files in the `docs` folder for readability.
+
+### [Setup](docs/setup.md)
+
+### [System Overview](docs/system_overview.md)
+
+### [Results](docs/results.md)
+
+### [Pitfalls / Future Work](docs/future_work.md)
