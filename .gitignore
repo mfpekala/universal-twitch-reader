@@ -1,0 +1,7 @@
+__pycache__
+frozen_output
+# Data (too big for github)
+data/STALE
+data/videos/*
+data/images/*
+data/boxes/*
