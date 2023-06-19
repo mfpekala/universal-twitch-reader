@@ -134,7 +134,7 @@ def write_boxes(f_loader, out_dir, conf_threshold=70, should_binarize=True, bina
                 fout.write(f"{timestamp},{box.id},{box}\n")
                 # draw the box onto images[0]
                 cv2.rectangle(temp, (box.left, box.top), (box.left + box.width, box.top + box.height), (0, 255, 0), 2)
-            # cv2.imwrite(f"temp.jpg", temp) helpful for debuggin
+            # cv2.imwrite(f"temp.jpg", temp) helpful for debugging
 
 def pre_process(inp_dir, out_dir, conf_threshold=70, should_binarize=True, binarize_threshold=125, save_as_new_imgs=False):
     f_dataset = datasets.ImageFolder(

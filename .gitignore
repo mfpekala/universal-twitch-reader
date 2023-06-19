@@ -1,5 +1,6 @@
 __pycache__
 frozen_output
+.DS_STORE
 # Data (too big for github)
 data/STALE
 data/videos/*
